@@ -22,6 +22,9 @@ module.exports = {
      borderColor: {
       custom: 'var(--color-border)'
      }
+    },
+    screens: {
+      'sm': '500px'
     }
   },
 
