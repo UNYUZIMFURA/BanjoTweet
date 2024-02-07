@@ -16,7 +16,7 @@ module.exports = {
       },
 
      backgroundColor: {
-       btnactive: 'var(--color-btn-active)'
+       custom: 'var(--color-btn-accent)'
      },
      
      borderColor: {
