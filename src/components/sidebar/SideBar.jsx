@@ -1,8 +1,21 @@
-import { LogoSvg, HomeSvg, SearchSvg, GrokSvg, NotifySvg, MessageSvg, ListSvg, BookMarkSvg, CommunitySvg, ProfileSvg, MoreSvg, CreateSvg } from "@/svgs"
+import {
+  LogoSvg,
+  HomeSvg,
+  SearchSvg,
+  GrokSvg,
+  NotifySvg,
+  MessageSvg,
+  ListSvg,
+  BookMarkSvg,
+  CommunitySvg,
+  ProfileSvg,
+  MoreSvg,
+  CreateSvg,
+} from "@/svgs";
 
 const SideBar = () => {
   return (
-    <div className='sm:min-h-[50rem] fixed bottom-0 w-full flex items-center justify-between px-4 py-3 sm:static sm:flex-col sm:w-[4.5rem] xl:w-[23rem] sm:border sm:border-custom sm:py-5 xl:items-start text-white'>
+    <div className="sm:min-h-[50rem] fixed bottom-0 w-full flex items-center justify-between px-4 py-3 sm:static sm:flex-col sm:w-[4.5rem] xl:w-[23rem] sm:border sm:border-custom sm:py-5 xl:items-start text-white">
       <div className="hidden sm:flex">
         <LogoSvg />
       </div>
@@ -50,11 +63,10 @@ const SideBar = () => {
         <div className="h-[52px] w-[52px] rounded-full bg-custom flex items-center justify-center">
           <CreateSvg />
         </div>
-        <div className='rounded-full object-cover h-[40px] w-[40px] border'>
-        </div>
+        <div className="rounded-full object-cover h-[40px] w-[40px] border"></div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SideBar
+export default SideBar;

@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 @layer base {
-    :root {
-        --color-text-primary: rgb(231, 233, 234);
-        --color-text-secondary: rgb(113,118,123);
-        --color-btn-accent: rgb(29, 155, 240); 
-        --color-border: rgba(255,255,255,0.22);
-    }
+  :root {
+    --color-text-primary: rgb(231, 233, 234);
+    --color-text-secondary: rgb(113, 118, 123);
+    --color-btn-accent: rgb(29, 155, 240);
+    --color-border: rgba(255, 255, 255, 0.22);
+  }
 }
 
 body {
-    font-family: Arial, Helvetica, "Segoe UI", sans-serif;
+  font-family: Arial, Helvetica, "Segoe UI", sans-serif;
 }
