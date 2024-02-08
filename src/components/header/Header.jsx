@@ -4,7 +4,7 @@ import SwitchButtons from './SwitchButtons'
 
 const Header = () => {
   return (
-    <div className='h-[6.6rem] w-full flex flex-col items-center'>
+    <div className='w-full flex flex-col items-center'>
         <Navbar />
         <SwitchButtons />
     </div>

@@ -1,3 +1,4 @@
+import { SettingsSvg } from '@/svgs'
 import React from 'react'
 
 const SwitchButtons = () => {
@@ -9,6 +10,9 @@ const SwitchButtons = () => {
         </div>
         <div className='w-1/2 h-12  flex items-center justify-center'>
             <span className='text-skin-secondary text-md font-semibold'>Following</span>
+        </div>
+        <div className='hidden px-4 sm:flex items-center justify-center'>
+        <SettingsSvg />
         </div>
     </div>
   )
