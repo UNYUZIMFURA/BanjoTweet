@@ -2,7 +2,7 @@ import { LogoSvg, HomeSvg, SearchSvg, GrokSvg, NotifySvg, MessageSvg, ListSvg, B
 
 const SideBar = () => {
   return (
-    <div className='fixed bottom-0 w-full flex items-center justify-between px-4 py-3 sm:static sm:flex-col sm:w-[4.5rem] sm:border-r sm:border-custom sm:py-5 xl:w-[25rem] xl:items-start text-white'>
+    <div className='fixed bottom-0 w-full flex items-center justify-between px-4 py-3 sm:static sm:flex-col sm:w-[4.5rem] lg:w-[10rem] sm:border-r sm:border-custom sm:py-5 xl:items-start text-white'>
       <div className="hidden sm:flex">
         <LogoSvg />
       </div>
@@ -22,27 +22,27 @@ const SideBar = () => {
         <NotifySvg />
         <span className="hidden xl:block">Notifications</span>
       </div>
-      <div className="xl:flex items-center justify-center gap-4 xl:p-6">
+      <div className="sm:flex items-center justify-center gap-4 xl:p-6">
         <MessageSvg />
         <span className="hidden xl:block">Messages</span>
       </div>
-      <div className="xl:flex items-center justify-center gap-4 xl:p-6">
+      <div className="sm:flex hidden items-center justify-center gap-4 xl:p-6">
         <ListSvg />
         <span className="hidden xl:block">Lists</span>
       </div>
-      <div className="xl:flex items-center justify-center gap-4 xl:p-6">
+      <div className="sm:flex hidden items-center justify-center gap-4 xl:p-6">
         <BookMarkSvg />
-        <span className="hidden min-[1280]:block">Bookmarks</span>
+        <span className="hidden xl:block">Bookmarks</span>
       </div>
-      <div className="xl:flex items-center justify-center gap-4 xl:p-6">
+      <div className="sm:flex hidden items-center justify-center gap-4 xl:p-6">
         <CommunitySvg />
         <span className="hidden xl:block">Communities</span>
       </div>
-      <div className="xl:flex items-center justify-center gap-4 xl:p-6">
+      <div className="sm:flexhidden items-center justify-center gap-4 xl:p-6">
         <ProfileSvg />
         <span className="hidden xl:block">Profile</span>
       </div>
-      <div className="xl:flex items-center justify-center gap-4 xl:p-6">
+      <div className="sm:flex hidden items-center justify-center gap-4 xl:p-6">
         <MoreSvg />
         <span className="hidden xl:block">More</span>
       </div>
