@@ -9,8 +9,8 @@ import {
 
 const Upload = () => {
   return (
-    <div className="hidden px-4 gap-4 pt-3 pb-1 sm:flex items-center border-b border-custom">
-      <div className="flex items-start gap-4">
+    <div className="hidden px-4 gap-4 pt-3 pb-1 sm:flex items-end border-b border-custom">
+      <div className="flex items-start gap-4 w-[90%]">
         <div className="rounded-full object-cover h-[40px] w-[40px] border"></div>
         <div className="flex flex-col gap-[6.3rem] py-1">
           <span className="text-skin-secondary text-[20px]">
@@ -24,6 +24,9 @@ const Upload = () => {
             <ScheduleSvg />
           </div>
         </div>
+      </div>
+      <div className="flex items-center justify-center h-[2.3rem] text-[0.9rem] font-black w-[5rem] text-white rounded-full bg-custom opacity-50">
+        Post
       </div>
     </div>
   );
