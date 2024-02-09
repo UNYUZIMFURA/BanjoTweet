@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="w-full p-3 flex items-center justify-between px-4 sm:hidden">
+    <nav className="w-full py-2 flex items-center justify-between px-4 sm:hidden">
       <div className="rounded-full object-cover h-8 w-8 border"></div>
       <LogoSvg />
       <SettingsSvg />
