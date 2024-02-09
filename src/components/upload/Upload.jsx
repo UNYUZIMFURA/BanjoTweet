@@ -1,4 +1,11 @@
 import React from "react";
+import {
+  GallerySvg,
+  EmojisSvg,
+  GifSvg,
+  PollSvg,
+  ScheduleSvg,
+} from "@/svgs/index";
 
 const Upload = () => {
   return (
@@ -6,7 +13,13 @@ const Upload = () => {
       <div className="rounded-full object-cover h-[40px] w-[40px] border"></div>
       <div className="flex flex-col">
         <span className="text-skin-secondary">What is happening?!</span>
-        <div></div>
+        <div className="flex">
+          <GallerySvg />
+          <EmojisSvg />
+          <GifSvg />
+          <PollSvg />
+          <ScheduleSvg />
+        </div>
       </div>
     </div>
   );
