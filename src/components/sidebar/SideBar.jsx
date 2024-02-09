@@ -15,7 +15,7 @@ import {
 
 const SideBar = () => {
   return (
-    <div className="sm:min-h-[50rem] fixed bottom-0 w-full flex items-center justify-between px-4 py-3 sm:static sm:flex-col sm:w-[4.5rem] xl:w-[23rem] sm:border sm:border-custom sm:py-5 xl:items-start text-white">
+    <div className="sm:min-h-[50rem] fixed bottom-0 w-full flex items-center justify-between px-4 py-3 sm:static sm:flex-col sm:w-[4.5rem] xl:w-[23rem] sm:border-r sm:border-custom sm:py-5 xl:items-start text-white">
       <div className="hidden sm:flex">
         <LogoSvg />
       </div>

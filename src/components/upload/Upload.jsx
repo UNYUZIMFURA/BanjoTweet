@@ -25,7 +25,7 @@ const Upload = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center h-[2.3rem] text-[0.9rem] font-black w-[5rem] text-white rounded-full bg-custom opacity-50">
+      <div className="flex items-center justify-center py-2 text-[0.9rem] font-black w-[4.8rem] text-white rounded-full bg-custom opacity-50">
         Post
       </div>
     </div>
