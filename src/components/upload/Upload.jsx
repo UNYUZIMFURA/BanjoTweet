@@ -9,16 +9,20 @@ import {
 
 const Upload = () => {
   return (
-    <div className="p-4 gap-4 h-[8rem] borde flex items-center ">
-      <div className="rounded-full object-cover h-[40px] w-[40px] border"></div>
-      <div className="flex flex-col">
-        <span className="text-skin-secondary">What is happening?!</span>
-        <div className="flex">
-          <GallerySvg />
-          <EmojisSvg />
-          <GifSvg />
-          <PollSvg />
-          <ScheduleSvg />
+    <div className="px-4 gap-4 py-6 flex items-center border-b border-custom">
+      <div className="flex items-start gap-4">
+        <div className="rounded-full object-cover h-[40px] w-[40px] border"></div>
+        <div className="flex flex-col gap-8">
+          <span className="text-skin-secondary text-[20px]">
+            What is happening?!
+          </span>
+          <div className="flex gap-4">
+            <GallerySvg />
+            <EmojisSvg />
+            <GifSvg />
+            <PollSvg />
+            <ScheduleSvg />
+          </div>
         </div>
       </div>
     </div>
