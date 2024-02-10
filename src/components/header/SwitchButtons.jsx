@@ -9,9 +9,7 @@ const SwitchButtons = () => {
         <div className="absolute bottom-0 bg-custom h-[4px] min-w-[3.7rem] rounded-sm"></div>
       </div>
       <div className="w-1/2 h-[3.3rem] flex items-center justify-center">
-        <span className="text-skin-secondary text-md">
-          Following
-        </span>
+        <span className="text-skin-secondary text-md">Following</span>
       </div>
       <div className="hidden px-4 sm:flex items-center justify-center">
         <SettingsSvg />
