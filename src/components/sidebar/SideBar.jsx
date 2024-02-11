@@ -59,7 +59,7 @@ const SideBar = () => {
         <MoreSvg />
         <span className="hidden xl:block text-[20px]">More</span>
       </div>
-      <div className="flex-col items-center gap-8 hidden sm:flex">
+      <div className="flex-col items-center gap-14 hidden sm:flex">
         <div className="h-[52px] w-[52px] rounded-full bg-custom flex items-center justify-center">
           <CreateSvg />
         </div>
