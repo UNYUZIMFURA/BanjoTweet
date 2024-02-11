@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div className="h-full w-full hidden"></div>
       </div>
-      <div className="hidden md:flex w-[18rem] border ml-5 min-[1093px]:w-[22rem]"></div>
+      <div className="hidden md:flex w-[18rem] border border-custom ml-5 min-[1093px]:w-[22rem]"></div>
     </main>
   );
 }
