@@ -10,26 +10,27 @@ module.exports = {
     extend: {
       textColor: {
         skin: {
-          primary: 'var(--color-text-primary)',
-          secondary: 'var(--color-text-secondary)'
-        }
+          primary: "var(--color-text-primary)",
+          secondary: "var(--color-text-secondary)",
+        },
       },
 
-     backgroundColor: {
-       custom: 'var(--color-btn-accent)'
-     },
-     
-     borderColor: {
-      custom: 'var(--color-border)'
-     }
+      backgroundColor: {
+        custom: "var(--color-btn-accent)",
+        btnhover: "var(--color-btn-hover)",
+      },
+
+      borderColor: {
+        custom: "var(--color-border)",
+      },
     },
     screens: {
-      'sm': '500px',
-      'md': '988px',
-      'lg':'1024px',
-      'xl': '1280px',
-      '2xl': '1536px'
-    }
+      sm: "500px",
+      md: "988px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
   },
 
   plugins: [],

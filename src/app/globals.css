@@ -8,6 +8,7 @@
     --color-text-secondary: rgb(113, 118, 123);
     --color-btn-accent: rgb(29, 155, 240);
     --color-border: rgba(255, 255, 255, 0.22);
+    --color-btn-hover: rgba(231, 233, 234, 0.1);
   }
 }
 
