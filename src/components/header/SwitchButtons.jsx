@@ -1,5 +1,4 @@
 import { SettingsSvg } from "@/svgs";
-import React from "react";
 
 const SwitchButtons = () => {
   return (

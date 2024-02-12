@@ -1,5 +1,4 @@
 import { LogoSvg, SettingsSvg } from "@/svgs";
-import React from "react";
 
 const Navbar = () => {
   return (
