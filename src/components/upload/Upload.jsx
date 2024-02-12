@@ -11,9 +11,9 @@ const Upload = () => {
   return (
     <div className="text-white hidden gap-4 pt-4 pb-1 sm:flex p-4">
       <div className="rounded-full object-cover h-[40px] w-[40px] border"></div>
-      <div className="w-[90%] flex flex-col">
+      <div className="w-[90%] flex flex-col gap-3">
         <textarea
-          className="resize-none h-[100px] pt-1 outline-none bg-black placeholder:text-skin-secondary placeholder:text-[20px]"
+          className="resize-none h-[50px] pt-1 outline-none bg-black placeholder:text-skin-secondary placeholder:text-[20px]"
           placeholder="What is happening?!"
         ></textarea>
 
