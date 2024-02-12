@@ -8,7 +8,7 @@ import {
 
 const Upload = () => {
   return (
-    <div className="text-white hidden gap-4 pt-4 pb-2 sm:flex px-4">
+    <div className="text-white hidden gap-4 pt-4 pb-[0.65rem] sm:flex px-4">
       <div className="rounded-full object-cover h-[40px] w-[40px] border"></div>
       <div className="w-[90%] flex flex-col gap-2">
         <textarea
