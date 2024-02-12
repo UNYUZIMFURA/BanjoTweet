@@ -72,6 +72,7 @@ const SideBar = () => {
         item.text === "Lists" ||
         item.text === "Bookmarks" ||
         item.text === "Communities" ||
+        item.text === "Premium" ||
         item.text === "Profile" ||
         item.text === "More" ? (
           <div
