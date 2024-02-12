@@ -15,7 +15,6 @@ const Upload = () => {
           className="resize-none h-[50px] pt-1 outline-none bg-black placeholder:text-skin-secondary placeholder:text-[20px] scrollbar-hide"
           placeholder="What is happening?!"
         ></textarea>
-
         <div className="flex w-full justify-between">
           <div className="flex gap-4">
             <GallerySvg />
