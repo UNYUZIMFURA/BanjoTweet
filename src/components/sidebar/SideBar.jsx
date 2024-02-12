@@ -91,7 +91,7 @@ const SideBar = () => {
           </div>
         )
       )}
-      <div className="flex-col items-center gap-14 hidden sm:flex py-">
+      <div className="flex-col items-center gap-14 hidden sm:flex">
         <div className="h-[52px] w-[52px] rounded-full bg-custom flex items-center justify-center">
           <CreateSvg />
         </div>
