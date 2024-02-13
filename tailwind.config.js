@@ -12,12 +12,14 @@ module.exports = {
         skin: {
           primary: "var(--color-text-primary)",
           secondary: "var(--color-text-secondary)",
+          inputsclr: "var(--color-text-inputs)",
         },
       },
 
       backgroundColor: {
         custom: "var(--color-btn-accent)",
         btnhover: "var(--color-btn-hover)",
+        inputsbg: "var(--color-inputs-bg)",
       },
 
       borderColor: {

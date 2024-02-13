@@ -9,6 +9,8 @@
     --color-btn-accent: rgb(29, 155, 240);
     --color-border: rgba(255, 255, 255, 0.22);
     --color-btn-hover: rgba(231, 233, 234, 0.1);
+    --color-text-inputs: rgb(231, 233, 234);
+    --color-inputs-bg: rgb(32, 35, 39);
   }
 }
 

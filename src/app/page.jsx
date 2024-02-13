@@ -1,3 +1,4 @@
+import { Search2Svg } from "@/svgs";
 import Header from "@/components/header/Header";
 import SideBar from "@/components/sidebar/SideBar";
 import Upload from "@/components/upload/Upload";
@@ -13,7 +14,15 @@ export default function Home() {
         </div>
         <div className="h-full w-full hidden"></div>
       </div>
-      <div className="hidden md:flex w-[18rem] border border-custom ml-5 min-[1093px]:w-[22rem]"></div>
+      <div className="hidden gap-4 w-[18rem] pt-2 px-2 min-[1003px]:flex border border-custom ml-5 min-[1093px]:w-[22rem]">
+        <div className="flex items-center h-[50px] rounded-full bg-inputsbg w-full pl-5 gap-4">
+          <Search2Svg />
+          <input
+            className="outline-none text-skin-inputsclr h-[50px] bg-inputsbg placeholder:text-skin-secondary w-[88%] rounded-r-full"
+            placeholder="Search"
+          />
+        </div>
+      </div>
     </main>
   );
 }
