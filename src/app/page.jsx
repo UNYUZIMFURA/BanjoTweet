@@ -1,7 +1,7 @@
 import Header from "@/components/header/Header";
 import SideBar from "@/components/sidebar/SideBar";
 import Upload from "@/components/upload/Upload";
-import Recommended from "@/recommended/Recommended";
+import Recommended from "@/components/recommended/Recommended";
 
 export default function Home() {
   return (
