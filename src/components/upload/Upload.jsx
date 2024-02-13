@@ -23,7 +23,7 @@ const Upload = () => {
             <PollSvg />
             <ScheduleSvg />
           </div>
-          <div className="flex items-center justify-center py-2 text-[0.9rem] font-black w-[4.8rem] rounded-full bg-custom opacity-50">
+          <div className="flex items-center justify-center py-2 text-[0.9rem] font-black w-[4.8rem] rounded-full bg-custom opacity-50 cursor-pointer">
             Post
           </div>
         </div>
