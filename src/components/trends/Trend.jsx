@@ -8,7 +8,7 @@ const Trend = () => {
           Trending in Rwanda
         </span>
         <span className="font-bold text-[15px]">Kigali</span>
-        <span className="text-skin-secondary text-[13px]">2,558 posts</span>
+        <span className="text-skin-secondary text-[13px]">8,958 posts</span>
       </div>
       <TrendDotsSvg />
     </div>
