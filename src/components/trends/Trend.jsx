@@ -1,4 +1,4 @@
-import { TrendDotsSvg } from "@/svgs";
+import { TrendDotsSvg } from "@/utils/svgs";
 
 const Trend = () => {
   return (

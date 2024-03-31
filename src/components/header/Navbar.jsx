@@ -1,4 +1,4 @@
-import { LogoSvg, SettingsSvg } from "@/svgs";
+import { LogoSvg, SettingsSvg } from "@/utils/svgs";
 
 const Navbar = () => {
   return (

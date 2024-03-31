@@ -1,7 +1,8 @@
 import React from 'react'
-import Search from '@/search/Search';
+import Search from '../search/Search';
 import Subscribe from '../subscribe/Subscribe';
 import Trends from '../trends/Trends';
+import WhoToFollow from '../who-to-follow/WhoToFollow';
 
 const Recommended = () => {
   return (
@@ -9,6 +10,7 @@ const Recommended = () => {
       <Search />
       <Subscribe />
       <Trends />
+      <WhoToFollow />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import {
   GifSvg,
   PollSvg,
   ScheduleSvg,
-} from "@/svgs/index";
+} from "@/utils/svgs/index";
 
 const Upload = () => {
   return (

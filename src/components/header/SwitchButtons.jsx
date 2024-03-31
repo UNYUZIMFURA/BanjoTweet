@@ -1,4 +1,4 @@
-import { SettingsSvg } from "@/svgs";
+import { SettingsSvg } from "@/utils/svgs";
 
 const SwitchButtons = () => {
   return (
