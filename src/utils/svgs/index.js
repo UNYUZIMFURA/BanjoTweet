@@ -278,7 +278,7 @@ const VerifiedSvg = () => {
       style={{
         fill: "rgb(29, 155, 240)",
       }}
-      width="20"
+      width="17"
       role="img"
       data-testid="icon-verified"
     >
