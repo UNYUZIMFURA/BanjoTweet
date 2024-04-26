@@ -26,7 +26,7 @@ const Post = () => {
         </div>
         <TrendDotsSvg />
       </div>
-      <div className="w-[85%] ml-[12%] rounded-2xl h-[32rem] border border-custom"></div>
+      <div className="w-[85%] ml-[12%] rounded-2xl h-[32rem] border border-custom cursor-pointer"></div>
     </div>
   );
 };
