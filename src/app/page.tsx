@@ -6,7 +6,7 @@ import Posts from "@/components/posts/Posts";
 
 export default function Home() {
   return (
-    <main className="flex h-screen w-screen flex-col sm:flex-row max-w-[80rem] items-center mx-auto">
+    <main className="flex min-h-screen w-screen flex-col sm:flex-row max-w-[80rem] items-center mx-auto">
       <div className="flex justify-center h-full w-full mx-auto">
         <div className="w-full min-[690px]:w-[calc(100%-4.5rem)] min-[760px]:w-[42.5rem] flex justify-start min-[1003px]:w-[54.5rem] min-[1093px]:w-[60rem">
           <SideBar />
