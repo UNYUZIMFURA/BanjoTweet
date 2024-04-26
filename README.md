@@ -1,2 +1,2 @@
 # Tweex
-# Twitter's UI is too easy!
+# Your normal day Twitter in the Mirror!
