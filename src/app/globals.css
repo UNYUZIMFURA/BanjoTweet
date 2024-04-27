@@ -15,6 +15,21 @@
   }
 }
 
+.loading {
+  animation: skeleton-loading 1s linear infinite alternate;
+  outline: none;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: rgb(38, 38, 38);
+  }
+
+  100% {
+    background-color: rgb(38, 38, 38, 0.5);
+  }
+}
+
 body {
   font-family: Arial, Helvetica, "Segoe UI", sans-serif;
 }
