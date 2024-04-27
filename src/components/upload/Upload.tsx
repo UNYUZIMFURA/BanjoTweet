@@ -1,3 +1,4 @@
+import Image from "next/image"
 import {
   GallerySvg,
   EmojisSvg,
@@ -8,28 +9,35 @@ import {
 
 const Upload = () => {
   return (
-    <div className="text-white hidden gap-4 pt-4 pb-[0.65rem] sm:flex px-4">
-      <div className="rounded-full object-cover h-[40px] w-[40px] border"></div>
-      <div className="w-[90%] flex flex-col gap-2">
-        <textarea
-          className="resize-none h-[50px] pt-1 outline-none bg-black placeholder:text-skin-secondary placeholder:text-[20px] scrollbar-hide"
-          placeholder="What is happening?!"
-        ></textarea>
-        <div className="flex w-full justify-between">
-          <div className="flex gap-4">
-            <GallerySvg />
-            <EmojisSvg />
-            <GifSvg />
-            <PollSvg />
-            <ScheduleSvg />
+      <div className="hidden gap-4 px-4 pb-[0.65rem] pt-4 text-white sm:flex">
+          <div className="relative overflow-hidden h-[40px] w-[40px] rounded-full border object-cover">
+              <Image
+                  src={`https://source.unsplash.com/600x600/?computer`}
+                  fill={true}
+                  className="object-cover"
+                  alt=""
+              />
           </div>
-          <div className="flex items-center justify-center py-2 text-[0.9rem] font-black w-[4.8rem] rounded-full bg-custom opacity-50 cursor-pointer">
-            Post
+          <div className="flex w-[90%] flex-col gap-2">
+              <textarea
+                  className="h-[50px] resize-none bg-black pt-1 outline-none scrollbar-hide placeholder:text-[20px] placeholder:text-skin-secondary"
+                  placeholder="What is happening?!"
+              ></textarea>
+              <div className="flex w-full justify-between">
+                  <div className="flex gap-4">
+                      <GallerySvg />
+                      <EmojisSvg />
+                      <GifSvg />
+                      <PollSvg />
+                      <ScheduleSvg />
+                  </div>
+                  <div className="flex w-[4.8rem] cursor-pointer items-center justify-center rounded-full bg-custom py-2 text-[0.9rem] font-black opacity-50">
+                      Post
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
-  );
+  )
 };
 
 export default Upload;
