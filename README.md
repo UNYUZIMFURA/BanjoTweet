@@ -1,2 +1,2 @@
 # Tweex
-# Your normal day Twitter in the Mirror!
+# Your Twitter in the Mirror!
