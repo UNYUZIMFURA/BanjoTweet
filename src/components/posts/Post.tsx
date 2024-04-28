@@ -6,14 +6,16 @@ import { LuDot } from "react-icons/lu"
 interface Props {
     category: string
     person: string
+    displayName: string
+    username: string
 }
 
-const Post: React.FC<Props> = ({ category, person }) => {
+const Post: React.FC<Props> = ({ category, person, displayName, username }) => {
     return (
         <div className="flex flex-col border-b border-r border-custom pb-4 text-white">
             <div className="flex items-start justify-between px-2 py-3">
                 <div className="flex w-full gap-2 xs:gap-4">
-                    <div className="relative overflow-hidden h-[2.5rem] w-[3.2rem] rounded-full cursor-pointer xs:w-[2.5rem]">
+                    <div className="loading relative overflow-hidden h-[2.5rem] w-[3.2rem] rounded-full cursor-pointer xs:w-[2.5rem]">
                         <Image
                             src={`https://source.unsplash.com/800x800/?${person}`}
                             fill={true}
@@ -25,13 +27,13 @@ const Post: React.FC<Props> = ({ category, person }) => {
                         <div className="flex flex-col items-start min-[420px]:flex-row min-[420px]:gap-3">
                             <div className="flex items-center gap-1">
                                 <span className="text-[15px] font-bold">
-                                    Historic Vids
+                                    {displayName}
                                 </span>
                                 <VerifiedSvg />
                             </div>
                             <div className="flex items-center">
                                 <span className="text-[15px] text-skin-secondary">
-                                    @historyinmemes
+                                   {username}
                                 </span>
                                 <LuDot
                                     className="mt-0.5"

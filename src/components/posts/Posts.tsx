@@ -4,13 +4,13 @@ import { PostProps } from "@/types/PostProps"
 const Posts = () => {
     const posts: PostProps[] = [
         {
-            category: "mansion",
+            category: "modern house",
             person: "boss",
             displayName: "Elon Musk",
             username: "elonmusk",
         },
         {
-            category: "football",
+            category: "stadium",
             person: "footballer",
             displayName: "Cristiano Ronaldo",
             username: "cristiano",
@@ -22,13 +22,13 @@ const Posts = () => {
             username: "miketyson",
         },
         {
-            category: "lake",
+            category: "animal",
             person: "tourist",
-            displayName: "",
-            username: "",
+            displayName: "Kevin Hart",
+            username: "kevinhart4real",
         },
         {
-            category: "military",
+            category: "soldier",
             person: "soldier",
             displayName: "Rwanda Defence Force",
             username: "rwandamod",
@@ -39,7 +39,7 @@ const Posts = () => {
         <div className="flex w-full flex-col">
         {
           posts.map((post, index) => (
-            <Post key={index} category={post.category} person={post.person} />
+            <Post key={index} category={post.category} person={post.person} displayName={post.displayName} username={post.username} />
           ))
            }
         </div>
