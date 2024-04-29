@@ -28,7 +28,7 @@ const Posts = () => {
         {
             category: "boxing",
             person: "boxer",
-            content: "Jake Paul isn't ready!",
+            content: "Jake Paul isn't ready! 👊",
             displayName: "Mike Tyson",
             username: "miketyson",
             comments: 650,
@@ -57,6 +57,17 @@ const Posts = () => {
             retweets: 1,
             likes: 19,
             analytics: 1.5,
+        },
+        {
+            category: "studio",
+            person: "producer",
+            content: "Jugumila is out now!🎹",
+            displayName: "Element Eleeeh",
+            username: "element_eleeeh",
+            comments: 240,
+            retweets: 4,
+            likes: 23,
+            analytics: 1,
         },
     ]
 

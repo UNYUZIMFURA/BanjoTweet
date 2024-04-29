@@ -10,7 +10,7 @@ import {
 const Upload = () => {
     return (
         <div className="hidden gap-4 px-4 pb-[0.65rem] pt-4 text-white sm:flex">
-            <div className="relative h-[40px] w-[40px] overflow-hidden rounded-full border object-cover">
+            <div className="cursor-pointer relative h-[40px] w-[40px] overflow-hidden rounded-full border object-cover">
                 <Image
                     src={`https://source.unsplash.com/600x600/?computer`}
                     fill={true}

@@ -1,3 +1,4 @@
+import "@/app/globals.css"
 import Image from "next/image"
 import {
     LogoSvg,
@@ -88,7 +89,7 @@ const SideBar = () => {
                       item.text === "Communities" ? (
                         <div
                             key={index}
-                            className="hidden items-center justify-center gap-4 xl:flex"
+                            className="disappear-on-smallheights hidden items-center justify-center gap-4 xl:flex"
                         >
                             <item.svg />
                             <span className="hidden text-[20px] xl:block">
@@ -108,12 +109,14 @@ const SideBar = () => {
                     ),
                 )}
                 <div className="hidden h-[52px] w-[52px] items-center justify-center rounded-full bg-custom sm:flex xl:hidden">
-                        <CreateSvg />           
+                    <CreateSvg />
                 </div>
-                <button className="hidden xl:flex bg-custom p-3 w-full rounded-full items-center justify-center font-bold">Post</button>
+                <button className="hidden w-full items-center justify-center rounded-full bg-custom p-3 font-bold xl:flex">
+                    Post
+                </button>
             </div>
-            <div className="hidden w-full items-center gap-4 sm:flex mt-5">
-                <div className="cursor-pointer relative hidden h-[42px] w-[42px] overflow-hidden rounded-full object-cover sm:flex">
+            <div className="hidden w-full items-center gap-4 mt-6 sm:flex">
+                <div className="relative hidden h-[42px] w-[42px] cursor-pointer overflow-hidden rounded-full object-cover sm:flex">
                     <Image
                         src={`https://source.unsplash.com/800x800/?person`}
                         fill={true}
@@ -121,7 +124,7 @@ const SideBar = () => {
                         alt=""
                     />
                 </div>
-                <div className="cursor-pointer hidden flex-col items-start xl:flex">
+                <div className="hidden cursor-pointer flex-col items-start xl:flex">
                     <span className="text-[15px] font-bold text-white">
                         Joy Kevin Banjo
                     </span>

@@ -73,7 +73,7 @@ const Post: React.FC<PostProps> = ({
             <div className="ml-[12%] flex w-[85%] items-center justify-between py-4 text-skin-secondary">
                 <div className="flex items-center gap-1">
                     <CommentSvg />
-                    <span className="text-[13px]">{comments}</span>
+                    <span className="text-[13px] hover:text-custom">{comments}</span>
                 </div>
                 <div className="flex items-center gap-1">
                     <RetweetSvg />
