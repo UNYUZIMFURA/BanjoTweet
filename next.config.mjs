@@ -5,10 +5,10 @@ const nextConfig = {
             {
                 protocol: "https",
                 hostname: "source.unsplash.com",
-                port: ''
+                port: "",
             },
         ],
     },
 }
 
-export default nextConfig;
+export default nextConfig

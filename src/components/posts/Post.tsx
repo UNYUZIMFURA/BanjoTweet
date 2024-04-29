@@ -1,7 +1,16 @@
 import "@/app/globals.css"
 import Image from "next/image"
 import { PostProps } from "@/types/PostProps"
-import { AnalyticsSvg, CommentSvg,LikeSvg,RetweetSvg,SaveSvg,TrendDotsSvg, UploadSvg, VerifiedSvg } from "@/utils/svgs"
+import {
+    AnalyticsSvg,
+    CommentSvg,
+    LikeSvg,
+    RetweetSvg,
+    SaveSvg,
+    TrendDotsSvg,
+    UploadSvg,
+    VerifiedSvg,
+} from "@/utils/svgs"
 import { LuDot } from "react-icons/lu"
 
 const Post: React.FC<PostProps> = ({
@@ -13,10 +22,10 @@ const Post: React.FC<PostProps> = ({
     comments,
     retweets,
     likes,
-    analytics
+    analytics,
 }) => {
     return (
-        <div className="hover:bg-[#0a0a0a] cursor-pointer flex flex-col border-b border-r border-custom text-white">
+        <div className="flex cursor-pointer flex-col border-b border-r border-custom text-white hover:bg-[#0a0a0a]">
             <div className="flex items-start justify-between px-2 py-3">
                 <div className="flex w-full gap-2 xs:gap-4">
                     <div className="loading relative h-[2.5rem] w-[3.2rem] cursor-pointer overflow-hidden rounded-full xs:w-[2.5rem]">
@@ -53,7 +62,7 @@ const Post: React.FC<PostProps> = ({
                 </div>
                 <TrendDotsSvg />
             </div>
-            <div className="loading relative ml-[12%] h-[26rem] md:h-[28rem] xl:h-[32rem] w-[85%] overflow-hidden rounded-2xl">
+            <div className="loading relative ml-[12%] h-[26rem] w-[85%] overflow-hidden rounded-2xl md:h-[28rem] xl:h-[32rem]">
                 <Image
                     src={`https://source.unsplash.com/800x800/?${category}`}
                     fill={true}

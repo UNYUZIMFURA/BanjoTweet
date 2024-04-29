@@ -1,7 +1,5 @@
 {
     "tabWidth": 4,
     "semi": false,
-    "plugins": [
-        "prettier-plugin-tailwindcss"
-    ]
+    "plugins": ["prettier-plugin-tailwindcss"]
 }

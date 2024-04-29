@@ -64,7 +64,7 @@ const svgs = [
 
 const SideBar = () => {
     return (
-        <div className="fixed bottom-0 z-10 px-4 flex w-full items-center justify-between bg-black text-white sm:h-screen sm:w-[4.5rem] sm:flex-col sm:border-r sm:border-custom py-3 xl:w-[16.5rem] xl:items-start">
+        <div className="fixed bottom-0 z-10 flex w-full items-center justify-between bg-black px-4 py-3 text-white sm:h-screen sm:w-[4.5rem] sm:flex-col sm:border-r sm:border-custom xl:w-[16.5rem] xl:items-start">
             <div className="flex w-full items-center justify-between sm:flex-col sm:gap-[2rem] xl:items-start xl:gap-5">
                 <div className="hidden sm:flex">
                     <LogoSvg />
