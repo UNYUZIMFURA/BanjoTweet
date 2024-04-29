@@ -115,7 +115,7 @@ const SideBar = () => {
                     Post
                 </button>
             </div>
-            <div className="hidden w-full items-center gap-4 mt-6 sm:flex">
+            <div className="mt-6 hidden w-full items-center gap-4 sm:flex">
                 <div className="relative hidden h-[42px] w-[42px] cursor-pointer overflow-hidden rounded-full object-cover sm:flex">
                     <Image
                         src={`https://source.unsplash.com/800x800/?person`}
