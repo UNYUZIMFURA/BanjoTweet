@@ -8,7 +8,7 @@ interface Props {
 
 const RecommendedFollow:React.FC<Props> = ({suggestedImage, username, displayName}) => {
   return (
-      <div className="flex cursor-pointer justify-between px-4 py-3 transition duration-200 ease-in hover:bg-[#0a0a0a]">
+      <div className="hover:bg-primaryhover flex cursor-pointer justify-between px-4 py-3 transition duration-200 ease-in">
           <div className="flex gap-4">
               <div className="relative h-[3.2rem] w-[3.2rem] overflow-hidden rounded-full border border-custom">
                   <Image

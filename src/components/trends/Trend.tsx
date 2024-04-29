@@ -3,7 +3,7 @@ import { TrendProps } from "@/types/TrendProps";
 
 const Trend:React.FC<TrendProps> = ({title,sector, posts}) => {
   return (
-    <div className="flex justify-between transition duration-200 ease-in hover:bg-[#0a0a0a] p-4 cursor-pointer w-full">
+    <div className="flex justify-between transition duration-200 ease-in hover:bg-primaryhover p-4 cursor-pointer w-full">
       <div className="flex flex-col">
         <span className="text-skin-secondary text-[13px]">
           {title}

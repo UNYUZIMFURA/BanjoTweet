@@ -19,6 +19,7 @@ module.exports = {
       backgroundColor: {
         secondary: "var(--color-secondary)",
         custom: "var(--color-btn-accent)",
+        primaryhover: "var(--color-primary-hover)",
         btnhover: "var(--color-btn-hover)",
         inputsbg: "var(--color-inputs-bg)",
       },
