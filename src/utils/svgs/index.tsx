@@ -174,6 +174,7 @@ const GallerySvg = () => {
       viewBox="0 0 24 24"
       aria-hidden="true"
       width="20"
+      cursor="pointer"
       style={{
         fill: "rgb(29, 155, 240)",
       }}
@@ -191,6 +192,7 @@ const GifSvg = () => {
       viewBox="0 0 24 24"
       aria-hidden="true"
       width="20"
+      cursor="pointer"
       style={{
         fill: "rgb(29, 155, 240)",
       }}
@@ -208,6 +210,7 @@ const PollSvg = () => {
       viewBox="0 0 24 24"
       aria-hidden="true"
       width="20"
+      cursor="pointer"
       style={{
         fill: "rgb(29, 155, 240)",
       }}
@@ -225,6 +228,7 @@ const EmojisSvg = () => {
       viewBox="0 0 24 24"
       aria-hidden="true"
       width="20"
+      cursor="pointer"
       style={{
         fill: "rgb(29, 155, 240)",
       }}
@@ -242,6 +246,7 @@ const ScheduleSvg = () => {
       viewBox="0 0 24 24"
       aria-hidden="true"
       width="20"
+      cursor="pointer"
       style={{
         fill: "rgb(29, 155, 240)",
       }}
@@ -259,6 +264,7 @@ const TrendDotsSvg = () => {
       viewBox="0 0 24 24"
       aria-hidden="true"
       width="20"
+      cursor="pointer"
       style={{
         fill: "rgb(113, 118, 123)",
       }}
@@ -275,6 +281,7 @@ const VerifiedSvg = () => {
     <svg
       viewBox="0 0 22 22"
       aria-label="Verified account"
+      cursor="pointer"
       style={{
         fill: "rgb(29, 155, 240)",
       }}

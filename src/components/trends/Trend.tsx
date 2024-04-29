@@ -1,14 +1,15 @@
 import { TrendDotsSvg } from "@/utils/svgs";
+import { TrendProps } from "@/types/TrendProps";
 
-const Trend = () => {
+const Trend:React.FC<TrendProps> = ({title,sector, posts}) => {
   return (
-    <div className="flex justify-between hover:bg-btnhover p-4 cursor-pointer w-full">
+    <div className="flex justify-between transition duration-200 ease-in hover:bg-[#0a0a0a] p-4 cursor-pointer w-full">
       <div className="flex flex-col">
         <span className="text-skin-secondary text-[13px]">
-          Trending in Rwanda
+          {title}
         </span>
-        <span className="font-bold text-[15px]">Kigali</span>
-        <span className="text-skin-secondary text-[13px]">8,958 posts</span>
+        <span className="font-bold text-[15px]">{sector}</span>
+        <span className="text-skin-secondary text-[13px]">{posts}</span>
       </div>
       <TrendDotsSvg />
     </div>
