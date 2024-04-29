@@ -6,6 +6,7 @@ import { LuDot } from "react-icons/lu"
 
 const Post: React.FC<PostProps> = ({
     category,
+    content,
     person,
     displayName,
     username,
@@ -46,7 +47,7 @@ const Post: React.FC<PostProps> = ({
                             </div>
                         </div>
                         <span className="text-[15px] font-extralight">
-                            Mike Tyson: Muhammad Ali is the greatest
+                            {content}
                         </span>
                     </div>
                 </div>
