@@ -53,7 +53,7 @@ const Post: React.FC<PostProps> = ({
                 </div>
                 <TrendDotsSvg />
             </div>
-            <div className="loading relative ml-[12%] h-[32rem] w-[85%] overflow-hidden rounded-2xl">
+            <div className="loading relative ml-[12%] h-[26rem] md:h-[28rem] xl:h-[32rem] w-[85%] overflow-hidden rounded-2xl">
                 <Image
                     src={`https://source.unsplash.com/800x800/?${category}`}
                     fill={true}
