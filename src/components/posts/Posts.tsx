@@ -6,7 +6,7 @@ const Posts = () => {
         {
             category: "modern house",
             person: "boss",
-            content: "Ready to Launch something",
+            content: "Ready to Launch something!",
             displayName: "Elon Musk",
             username: "elonmusk",
             comments: 650,
