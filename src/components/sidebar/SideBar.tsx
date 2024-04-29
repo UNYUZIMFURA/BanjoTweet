@@ -1,3 +1,4 @@
+import Image from "next/image"
 import {
     LogoSvg,
     LogoSmallSvg,
@@ -106,11 +107,29 @@ const SideBar = () => {
                         </div>
                     ),
                 )}
-                <div className="hidden h-[52px] w-[52px] items-center justify-center rounded-full bg-custom sm:flex">
-                    <CreateSvg />
+                <div className="hidden h-[52px] w-[52px] items-center justify-center rounded-full bg-custom sm:flex xl:hidden">
+                        <CreateSvg />           
+                </div>
+                <button className="hidden xl:flex bg-custom p-3 w-full rounded-full items-center justify-center font-bold">Post</button>
+            </div>
+            <div className="hidden w-full items-center gap-4 sm:flex">
+                <div className="relative hidden h-[42px] w-[42px] overflow-hidden rounded-full object-cover sm:flex">
+                    <Image
+                        src={`https://source.unsplash.com/800x800/?person`}
+                        fill={true}
+                        className="object-cover"
+                        alt=""
+                    />
+                </div>
+                <div className="hidden flex-col items-start xl:flex">
+                    <span className="text-[15px] font-bold text-white">
+                        Joy Kevin Banjo
+                    </span>
+                    <span className="text-[15px] text-skin-secondary">
+                        @joykevinbanjo
+                    </span>
                 </div>
             </div>
-            <div className="hidden h-[40px] w-[40px] rounded-full border object-cover sm:flex"></div>
         </div>
     )
 }
