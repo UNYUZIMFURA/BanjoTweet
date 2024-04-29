@@ -113,7 +113,7 @@ const SideBar = () => {
                 <button className="hidden xl:flex bg-custom p-3 w-full rounded-full items-center justify-center font-bold">Post</button>
             </div>
             <div className="hidden w-full items-center gap-4 sm:flex">
-                <div className="relative hidden h-[42px] w-[42px] overflow-hidden rounded-full object-cover sm:flex">
+                <div className="cursor-pointer relative hidden h-[42px] w-[42px] overflow-hidden rounded-full object-cover sm:flex">
                     <Image
                         src={`https://source.unsplash.com/800x800/?person`}
                         fill={true}
@@ -121,7 +121,7 @@ const SideBar = () => {
                         alt=""
                     />
                 </div>
-                <div className="hidden flex-col items-start xl:flex">
+                <div className="cursor-pointer hidden flex-col items-start xl:flex">
                     <span className="text-[15px] font-bold text-white">
                         Joy Kevin Banjo
                     </span>
