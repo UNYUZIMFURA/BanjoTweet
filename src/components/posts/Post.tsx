@@ -17,7 +17,7 @@ const Post: React.FC<PostProps> = ({
     likes,
     analytics,
 }) => {
-    const [liked, setLiked] = useState(false)
+
     return (
         <div className="flex cursor-pointer flex-col border-b border-r border-custom text-white hover:bg-[#0a0a0a]">
             <div className="flex items-start justify-between px-2 py-3">

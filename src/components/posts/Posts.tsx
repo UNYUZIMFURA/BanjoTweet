@@ -59,7 +59,7 @@ const Posts = () => {
             analytics: 1.5,
         },
         {
-            category: "studio",
+            category: "music studio",
             person: "producer",
             content: "Jugumila is out now!🎹",
             displayName: "Element Eleeeh",
@@ -68,6 +68,17 @@ const Posts = () => {
             retweets: 4,
             likes: 40,
             analytics: 1,
+        },
+        {
+            category: "Karate",
+            person: "Karate Master",
+            content: "Ready for combat!",
+            displayName: "Michael Jai White",
+            username: "michael_jai_white",
+            comments: 340,
+            retweets: 5,
+            likes: 45,
+            analytics: 2,
         },
     ]
 
