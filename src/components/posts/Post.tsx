@@ -19,7 +19,7 @@ const Post: React.FC<PostProps> = ({
 }) => {
 
     return (
-        <div className="flex cursor-pointer flex-col border-b border-r border-custom text-white hover:bg-[#0a0a0a]">
+        <div className="flex cursor-pointer flex-col border-b border-r border-custom text-white hover:bg-[#0a0a0a] pb-5 min-[380px]:pb-0">
             <div className="flex items-start justify-between px-2 py-3">
                 <div className="flex w-full gap-2 xs:gap-4">
                     <div className="loading relative h-[2.5rem] w-[3.2rem] cursor-pointer overflow-hidden rounded-full xs:w-[2.5rem]">
@@ -64,7 +64,7 @@ const Post: React.FC<PostProps> = ({
                     alt=""
                 />
             </div>
-            <div className="ml-[12%] flex w-[85%] items-center justify-between py-4 text-skin-secondary">
+            <div className="hidden ml-[12%] min-[380px]:flex w-[85%] items-center justify-between py-4 text-skin-secondary">
                 <div className="group flex items-center gap-[3px]">
                     <div className="rounded-full p-1 group-hover:bg-[#1D9BF01A]">
                         <svg
