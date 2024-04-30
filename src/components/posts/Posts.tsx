@@ -11,7 +11,7 @@ const Posts = () => {
             username: "elonmusk",
             comments: 650,
             retweets: 1.2,
-            likes: 19,
+            likes: 175,
             analytics: 35,
         },
         {
@@ -22,7 +22,7 @@ const Posts = () => {
             username: "cristiano",
             comments: 650,
             retweets: 1,
-            likes: 19,
+            likes: 85,
             analytics: 20.5,
         },
         {
@@ -33,7 +33,7 @@ const Posts = () => {
             username: "miketyson",
             comments: 650,
             retweets: 1,
-            likes: 19,
+            likes: 75,
             analytics: 11.5,
         },
         {
@@ -44,7 +44,7 @@ const Posts = () => {
             username: "kevinhart4real",
             comments: 650,
             retweets: 1,
-            likes: 19,
+            likes: 29,
             analytics: 3.5,
         },
         {
@@ -55,7 +55,7 @@ const Posts = () => {
             username: "rwandamod",
             comments: 650,
             retweets: 1,
-            likes: 19,
+            likes: 23,
             analytics: 1.5,
         },
         {
@@ -66,7 +66,7 @@ const Posts = () => {
             username: "element_eleeeh",
             comments: 240,
             retweets: 4,
-            likes: 23,
+            likes: 40,
             analytics: 1,
         },
     ]

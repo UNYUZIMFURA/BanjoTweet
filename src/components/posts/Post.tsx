@@ -1,5 +1,7 @@
+"use client"
 import "@/app/globals.css"
 import Image from "next/image"
+import { useState } from "react"
 import { PostProps } from "@/types/PostProps"
 import { TrendDotsSvg, VerifiedSvg } from "@/utils/svgs"
 import { LuDot } from "react-icons/lu"
@@ -15,6 +17,7 @@ const Post: React.FC<PostProps> = ({
     likes,
     analytics,
 }) => {
+    const [liked, setLiked] = useState(false)
     return (
         <div className="flex cursor-pointer flex-col border-b border-r border-custom text-white hover:bg-[#0a0a0a]">
             <div className="flex items-start justify-between px-2 py-3">
@@ -75,7 +78,9 @@ const Post: React.FC<PostProps> = ({
                             </g>
                         </svg>
                     </div>
-                    <span className="hover:text-custom text-[13px] group-hover:text-[#1D9BF0]">
+                    <span
+                        className={`hover:text-custom text-[13px] group-hover:text-[#1D9BF0]`}
+                    >
                         {comments}
                     </span>
                 </div>

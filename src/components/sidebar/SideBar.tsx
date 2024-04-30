@@ -126,10 +126,10 @@ const SideBar = () => {
                 </div>
                 <div className="hidden cursor-pointer flex-col items-start xl:flex">
                     <span className="text-[15px] font-bold text-white">
-                        Joy Kevin Banjo
+                        Banjo Tweet
                     </span>
                     <span className="text-[15px] text-skin-secondary">
-                        @joykevinbanjo
+                        @banjotweet
                     </span>
                 </div>
             </div>
