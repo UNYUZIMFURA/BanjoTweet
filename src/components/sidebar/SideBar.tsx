@@ -68,7 +68,7 @@ const SideBar = () => {
     return (
         <div className="fixed bottom-0 z-10 flex w-full items-center justify-between bg-black px-4 py-3 text-white sm:h-screen sm:w-[4.5rem] sm:flex-col sm:border-r sm:border-custom xl:w-[16.5rem] xl:items-start">
             <div className="flex w-full items-center justify-between sm:flex-col sm:gap-[2rem] xl:items-start xl:gap-5">
-                <div className="hidden sm:flex">
+                <div className="hidden sm:flex cursor-pointer">
                     <LogoSvg />
                 </div>
                 {svgs.map((item, index) =>
@@ -78,7 +78,7 @@ const SideBar = () => {
                     item.text === "More" ? (
                         <div
                             key={index}
-                            className="hidden items-center justify-center gap-4 sm:flex"
+                            className="cursor-pointer hidden items-center justify-center gap-4 sm:flex"
                         >
                             <item.svg />
                             <span className="hidden text-[20px] xl:block">
@@ -89,7 +89,7 @@ const SideBar = () => {
                       item.text === "Communities" ? (
                         <div
                             key={index}
-                            className="disappear-on-smallheights hidden items-center justify-center gap-4 xl:flex"
+                            className="cursor-pointer disappear-on-smallheights hidden items-center justify-center gap-4 xl:flex"
                         >
                             <item.svg />
                             <span className="hidden text-[20px] xl:block">
@@ -99,7 +99,7 @@ const SideBar = () => {
                     ) : (
                         <div
                             key={index}
-                            className="items-center justify-center gap-4 xl:flex"
+                            className="cursor-pointer items-center justify-center gap-4 xl:flex"
                         >
                             <item.svg />
                             <span className="hidden text-[20px] xl:block">
