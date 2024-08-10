@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { v4 } from "uuid";
 
 interface Props {
     suggestedImage: string
@@ -16,7 +17,7 @@ const RecommendedFollow: React.FC<Props> = ({
             <div className="flex gap-4">
                 <div className="relative h-[3.2rem] w-[3.2rem] overflow-hidden rounded-full border border-custom">
                     <Image
-                        src={`https://source.unsplash.com/600x600/?${suggestedImage}`}
+                        src={`https://picsum.photos/600/600?random=${v4()}`}
                         fill={true}
                         className="object-cover"
                         alt=""

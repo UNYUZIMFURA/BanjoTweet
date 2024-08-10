@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { v4 } from "uuid";
 import {
     GallerySvg,
     EmojisSvg,
@@ -12,7 +13,7 @@ const Upload = () => {
         <div className="hidden gap-4 px-4 pb-[0.65rem] pt-4 text-white sm:flex">
             <div className="relative h-[40px] w-[40px] cursor-pointer overflow-hidden rounded-full border object-cover">
                 <Image
-                    src={`https://source.unsplash.com/600x600/?computer`}
+                    src={`https://picsum.photos/600/600?random=${v4()}`}
                     fill={true}
                     className="object-cover"
                     alt=""

@@ -1,6 +1,7 @@
 "use client"
 import "@/app/globals.css"
 import Image from "next/image"
+import { v4 } from "uuid";
 import { useState } from "react"
 import { PostProps } from "@/types/PostProps"
 import { TrendDotsSvg, VerifiedSvg } from "@/utils/svgs"
@@ -28,7 +29,7 @@ const Post: React.FC<PostProps> = ({
                 <div className="flex w-full gap-2 xs:gap-4">
                     <div className="loading relative h-[2.5rem] w-[3.2rem] cursor-pointer overflow-hidden rounded-full xs:w-[2.5rem]">
                         <Image
-                            src={`https://source.unsplash.com/800x800/?${person}`}
+                            src={`https://picsum.photos/600/600?random=${v4()}`}
                             fill={true}
                             className="object-cover"
                             alt=""
@@ -62,7 +63,7 @@ const Post: React.FC<PostProps> = ({
             </div>
             <div className="loading relative ml-[12%] h-[26rem] w-[85%] overflow-hidden rounded-2xl md:h-[28rem] xl:h-[32rem]">
                 <Image
-                    src={`https://source.unsplash.com/800x800/?${category}`}
+                    src={`https://picsum.photos/600/600?random=${v4()}`}
                     fill={true}
                     className="object-cover"
                     alt=""
